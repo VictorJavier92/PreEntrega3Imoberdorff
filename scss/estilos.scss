@@ -1,0 +1,109 @@
+@import 'estructura';
+@import 'variables';
+@import 'colores';
+
+
+.titulopagina{
+    background-color: #905E96;
+    text-align: $alineacion;
+    color: aliceblue;
+    padding-bottom: 5px;
+    
+}
+
+
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+    color: white;
+}
+
+
+
+
+/* CSS para index.html */
+.alineaciontextovideo{
+    font-size: 300%;
+    text-align: $alineacion;
+    margin-bottom: $espaciado;
+    background-image: linear-gradient(to right, rgb(245, 13, 13) ,  rgb(235, 247, 23));
+}
+
+.carousel-inner{
+        padding: $espaciado3;
+
+}
+
+
+.alineacionvideo{
+    width: 640px;
+    height: 480px;
+    padding-top: $espaciado;
+  }
+
+
+
+    .map{
+        text-align: $alineacion;
+        margin-top: $espaciado3;
+        font-size: $espaciado2;
+    }
+
+   .profesora{
+     text-align: $alineacion;
+     margin-top: $espaciado2;
+     
+}
+
+.profesoraimagen{
+        text-align: $alineacion;
+        padding-top: $espaciado;
+        padding-bottom: $espaciado;
+}
+
+.fotosprofesora{
+        text-align: $alineacion;
+        padding-top: $espaciado;
+        padding-bottom: $espaciado;
+   
+
+}
+
+
+  .imagen:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;}
+
+    .quienessomos{
+        color: rgb(0, 255, 34);
+        justify-content: flex-start;
+        font-size: $espaciado2;
+      font-style: italic;
+      backface-visibility: visible;
+    }
+
+.contacto {
+    background-color: red;
+    padding-bottom: $espaciado;
+    padding-top: $espaciado;
+    padding-left: $espaciado;
+    padding-right: $espaciado;
+  }
+
+  .preguntas{
+    background-color: aquamarine;
+}
+
+  .footer{
+    background-color: rgba(243, 16, 16, 0.2);
+}
+
+.ingles{
+    padding-bottom: $espaciado;
+    padding-top: $espaciado;
+    text-align: $alineacion;
+}
+

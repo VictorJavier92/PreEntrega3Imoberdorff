@@ -1,0 +1,33 @@
+* {margin: 0px;
+    padding: 0px;
+    }
+
+main{
+    min-height: 100vh;
+}
+
+.menu{
+    list-style: none;
+    background-color: #D58BDD;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+        li{
+            display: inline-block;
+            text-align: center;
+                a{
+                    text-decoration: solid;
+                    color: rgb(4, 19, 34);
+                    padding: 25px;
+                    display: block;
+                    font-size: 150%;
+                        &:hover{
+                            background-color: #ef8354;
+                        }
+                }
+        }
+
+}
+
